@@ -4,7 +4,7 @@ Este repositorio alberga un proyecto enfocado en la predicción de precios de vi
 
 ## 🔗 Enlaces del Proyecto
 
-- 📓 **Notebook en Google Colab (EDA + Modelado):** [Ver notebook aquí](https://drive.google.com/file/d/1c-HhyNAshvyAFU83rcMSnCTdHpL5yzys/view?usp=sharing)
+- 📓 **Notebook en Google Colab (EDA + Modelado):** [Ver notebook aquí](https://colab.research.google.com/drive/1aNXNHcN_aHUakwLCZPjs01qM2UhueYVl?usp=sharing)
 - 🌐 **Aplicación desplegada (Streamlit App):** [Probar app aquí](https://prediccion-precios-viviendas.streamlit.app/)
 
 ---
