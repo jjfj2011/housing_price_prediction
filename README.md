@@ -54,20 +54,21 @@ El objetivo es **predecir el precio de una vivienda en California** a partir de 
 
 ✅ **Modelado**
 
-- Modelos desarrollados: XGBoost y LightGBM.
+- Modelos desarrollados: **XGBoost** y **LightGBM**.
 - Selección de hiperparámetros usando **GridSearchCV**.
 
 ✅ **Mejor modelo encontrado**
 
-- **Algoritmo:** LightGBM Regressor
-- **Mejores hiperparámetros:**
-  - `colsample_bytree`: 0.6
-  - `max_depth`: 3
-  - `subsample`: 1
+- **Algoritmo:** LightGBM Regressor (seleccionado mediante GridSearchCV con validación cruzada 5-fold)
+- **Mejores hiperparámetros encontrados:**
+  - `learning_rate`: 0.1
+  - `max_depth`: 7
+  - `n_estimators`: 300
+- **Tiempo de entrenamiento:** ~0.82 minutos
 
 ✅ **Métricas de rendimiento**
 
-- **RMSE del modelo optimizado:** \$44,747.70
+- **RMSE del modelo optimizado:** \$44,447.89
 
 ✅ **Despliegue**
 
@@ -80,7 +81,7 @@ El objetivo es **predecir el precio de una vivienda en California** a partir de 
 
 ## 📊 Resultados Obtenidos
 
-- El modelo puede predecir precios de viviendas con un RMSE promedio cercano a **\$44,748**, demostrando un buen desempeño para una primera implementación.
+- El modelo puede predecir precios de viviendas con un RMSE promedio cercano a **\$44,448**, demostrando un buen desempeño para una primera implementación.
 - Gráficos de distribución de precios, correlación y scatterplots permiten entender los factores clave que influyen en el precio.
 
 ---
@@ -89,7 +90,7 @@ El objetivo es **predecir el precio de una vivienda en California** a partir de 
 
 ### ▶️ Requisitos
 
-- Python 3.8+
+- Python 3.12.2
 - Instalar dependencias:
 
 ```bash
@@ -111,14 +112,17 @@ La aplicación se abrirá en tu navegador predeterminado donde podrás ingresar 
 
 ### 🎯 Pantalla principal de la aplicación
 
+![image](https://github.com/user-attachments/assets/25061830-598c-4c39-baee-8c63a5d1f697)
 
 
 ### 📈 Ejemplo de predicción y gráfico gauge
 
+![image](https://github.com/user-attachments/assets/9339891b-0a8a-4cae-aac2-129ccd7235ca)
 
 
 ### 🌍 Mapa de la ubicación de la vivienda
 
+![image](https://github.com/user-attachments/assets/65a90ae0-69af-4e16-b5a6-095ed6826526)
 
 
 
