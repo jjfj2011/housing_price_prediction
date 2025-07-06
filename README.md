@@ -37,10 +37,11 @@ El objetivo es **predecir el precio de una vivienda en California** a partir de 
 ## 📂 Estructura del Repositorio
 
 ```
-├── app.py                        # Aplicación Streamlit para la predicción
-├── modelo_lightgbm_optimizado.pkl # Modelo entrenado y optimizado con LightGBM
-├── Prediccion_precios_vivienda_CA.ipynb # Notebook completo con el desarrollo
-└── README.md                     # Este archivo
+├── California_Houses.csv            # Dataset
+├── app.py                           # Aplicación Streamlit para la predicción
+├── modelo_lightgbm_optimizado.pkl   # Modelo entrenado y optimizado con LightGBM
+├── requirements.txt                 # Dependencias del proyecto
+└── README.md                        # Este archivo
 ```
 
 ---
