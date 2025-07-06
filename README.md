@@ -2,6 +2,13 @@
 
 Este repositorio alberga un proyecto enfocado en la predicción de precios de viviendas en California, utilizando variables socioeconómicas y geográficas. El modelo optimizado más eficaz ha sido implementado en Streamlit, permitiendo la estimación del precio de una vivienda mediante el ingreso de valores en cada característica.
 
+## 🔗 Enlaces del Proyecto
+
+- 📓 **Notebook en Google Colab (EDA + Modelado):** [Ver notebook aquí](https://drive.google.com/file/d/1c-HhyNAshvyAFU83rcMSnCTdHpL5yzys/view?usp=sharing)
+- 🌐 **Aplicación desplegada (Streamlit App):** [Probar app aquí](https://prediccion-precios-viviendas.streamlit.app/)
+
+---
+
 ## 🚀 Tabla de Contenido
 
 - [🔍 Descripción del Proyecto](#-descripción-del-proyecto)
